@@ -1,0 +1,119 @@
+.Tweet {
+    width: 599px;
+    border-right: 1px solid rgba(128, 128, 128, 0.526);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.526);
+    padding: 12px 16px;
+    display: flex;
+    gap: 12px;
+    
+    .Logo {
+        cursor: pointer;
+    }
+    .Content {
+        .Body {
+            margin-bottom: 12px;
+
+            .FullName {
+                display: flex;
+                gap: 4px;
+                margin-bottom: 5px;
+                cursor: pointer;
+
+    
+                .Nick {
+                    font-size: 15px;
+                    font-weight: 700;
+                    
+                }
+                .Tag {
+                    color: #6E767D;
+                }
+            }
+            .Text {
+                color: #D9D9D9;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+    }
+    
+    .Actions {
+        height: 34px;
+        display: flex;
+        gap: 72px;
+
+        
+
+        .Comment {
+            display: flex;
+            gap: 19px;
+            cursor: pointer;
+            
+            .Image {
+                padding: 7px;
+                width: 34px;
+                height: 34px;
+                border-radius: 34px;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+                &:hover{
+                    background-color: #0A171F;
+                }
+            }
+            .ToggledImage {
+                background-color: rgb(0, 133, 216);
+            }
+            
+            .Count {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: var(--Gray, #6E767D);
+                font-size: 13px;
+                font-weight: 300;
+            }
+        }
+
+        .Like {
+            display: flex;
+            gap: 19px;
+            cursor: pointer;
+            
+            .Image {
+                padding: 7px;
+                width: 34px;
+                height: 34px;
+                border-radius: 34px;
+                
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+                &:hover{
+                    background-color: #200914;
+                }
+            }
+            .ToggledImage {
+                background-color: #820a44;
+            }
+            
+            .Count {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: var(--Gray, #6E767D);
+                font-size: 13px;
+                font-weight: 300;
+            }
+        }
+    }
+   
+
+}
+
+
+
+// #0A171F
